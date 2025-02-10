@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Management</title>
+  <link rel="stylesheet" href="homepage3.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Eventify</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Explore Upcoming Events</h1>
+      <form class="search-form">
+        <input type="text" placeholder="Search events..." />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Featured Events Section -->
+  <section id="events" class="featured-events">
+    <h2 data-aos="fade-up">Featured Events</h2>
+    <div class="event-grid"></div>
+  </section>
+
+  <!-- Event Details Section -->
+  <section id="event-details" class="event-details">
+    <div class="details-content"></div>
+  </section>
+
+  <!-- RSVP Modal -->
+  <div id="rsvp-modal" class="modal">
+    <div class="modal-content">
+      <p>Are you sure you want to RSVP for this event?</p>
+      <button id="rsvp-confirm" class="btn">Yes, RSVP</button>
+      <button id="rsvp-cancel" class="btn">Cancel</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Eventify. All rights reserved.</p>
+    <ul>
+      <li><a href="#privacy">Privacy Policy</a></li>
+      <li><a href="#terms">Terms of Service</a></li>
+    </ul>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="homepage3.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

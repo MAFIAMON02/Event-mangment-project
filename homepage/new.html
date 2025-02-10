@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management Site</title>
+    <link rel="stylesheet" href="new.css">
+    <script defer src="new.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header class="hero">
+        <h1 class="fade-in">Transforming Occasions into Great Memories</h1>
+        <p class="fade-in">We make your events unforgettable with top-tier management services.</p>
+        <button class="btn pulse" id="bookEventBtn">Book Your Event</button>
+    </header>
+    
+    <section class="services">
+        <h2>Services We Provide</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-school"></i>
+                <h3>School Events</h3>
+                <p>Annual functions, sports events, and national celebrations.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-ring"></i>
+                <h3>Wedding Events</h3>
+                <p>Invitation, venue selection, decoration, lights, photography, and more.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-umbrella"></i>
+                <h3>Kite Festival</h3>
+                <p>Ground & guest management, artist coordination, and logistics.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-palette"></i>
+                <h3>Holi Celebration</h3>
+                <p>Children's play area, digital zone, and game zone management.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-building"></i>
+                <h3>Corporate Events</h3>
+                <p>Production, guest, and artist management for business events.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-music"></i>
+                <h3>Navratri Events</h3>
+                <p>Decor, lighting, photography, and full artist management.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-chart-bar"></i>
+                <h3>Exhibitions</h3>
+                <p>Complete stall setup and crowd management.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-star"></i>
+                <h3>VIP Concerts</h3>
+                <p>Hospitality, logistics, and artist coordination.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-plane"></i>
+                <h3>Pilgrimage Events</h3>
+                <p>Complete travel planning, hospitality, and accommodations.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-box"></i>
+                <h3>Product Launch</h3>
+                <p>Brand promotions with customized event execution.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn submit-btn">Submit</button>
+        </form>
+        <p id="formMessage" class="hidden-message">Thank you for contacting us!</p>
+    </section>
+</body>
+</html>

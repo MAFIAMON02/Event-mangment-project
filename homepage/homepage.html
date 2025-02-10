@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management Site</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script defer src="homepage.js"></script>
+</head>
+<body>
+    <header class="hero">
+        <h1 class="fade-in">Transforming Occasions into Great Memories</h1>
+        <p class="fade-in">We make your events unforgettable with top-tier management services.</p>
+        <button class="btn pulse" id="bookEventBtn">Book Your Event</button>
+    </header>
+    
+    <!-- <section class="services">
+        <h2>Services We Provide</h2>
+        <div class="services-grid">
+            <div class="service-card hover-effect">Choreographers</div>
+            <div class="service-card hover-effect">Costume & Makeup</div>
+            <div class="service-card hover-effect">Photography & Videography</div>
+            <div class="service-card hover-effect">LED Screen & Video Editing</div>
+            <div class="service-card hover-effect">Social Media Management</div>
+            <div class="service-card hover-effect">Event Anchoring</div>
+        </div>
+    </section> -->
+    <section class="services">
+        <h2>Services We Provide</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-music"></i>
+                <h3>Choreographers</h3>
+                <p>Professional dance training for your event.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-tshirt"></i>
+                <h3>Costume & Makeup</h3>
+                <p>We provide stunning costumes & makeup artists.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-camera"></i>
+                <h3>Photography & Videography</h3>
+                <p>Capture your best moments with our team.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-tv"></i>
+                <h3>LED Screen & Editing</h3>
+                <p>High-quality visuals & LED display management.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Event Anchoring</h3>
+                <p>Experienced anchors to engage your audience.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-share-alt"></i>
+                <h3>Social Media Management</h3>
+                <p>Manage your event’s social media for 2 months.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn submit-btn">Submit</button>
+        </form>
+        <p id="formMessage" class="hidden-message">Thank you for contacting us!</p>
+    </section>
+</body>
+</html>
